@@ -1,4 +1,4 @@
-# Python Full-Stack Web Development 
+# Python Full-Stack Web Development #
 Diving into the wonderful black hole of tinkering with code until it works, learning:
 
 - How to build complex, scalable software applications from scratch
