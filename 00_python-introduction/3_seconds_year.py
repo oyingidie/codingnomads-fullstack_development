@@ -11,7 +11,7 @@ hours_day = 24
 # three hundred and sixty-five days in a year
 days_year = 365
 
-# multiply all for the number of seconds in a year
+# multiply all for total seconds in a year
 seconds_year = seconds_minute * minutes_hour * hours_day * days_year
 
 print(seconds_year)
