@@ -6,3 +6,4 @@
 #
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+print("I'm a programmer now.\nYeehaw!\nCoding here I come!")
