@@ -7,7 +7,7 @@ minutes_hour = 60 # minutes in an hour
 hours_day = 24 # hours in a day
 days_year = 365 # days in a year
 
-# compute the number of seconds in a year
+# compute number of seconds in a year
 seconds_year = seconds_minute * minutes_hour * hours_day * days_year
 
 print(seconds_year)
