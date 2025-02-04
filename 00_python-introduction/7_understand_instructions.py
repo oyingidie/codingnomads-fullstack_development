@@ -2,4 +2,4 @@
 # and implement the instructions below:
 #
 # 0. Pass the value 100 as an argument to the print() function.
-# =============================================================
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
