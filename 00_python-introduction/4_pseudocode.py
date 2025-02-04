@@ -6,7 +6,7 @@
 # 0. Break this task up into a couple of steps of pseudocode
 #    and write the pseudocode below in code comments.
 # 1. You don't need to write any functional code, just map out the steps.
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # create a list of kitten names
 # go through the names in the list
