@@ -1,10 +1,10 @@
 # 0. Identify the programming concepts in the guess-my-number game.
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# =================================================================
 
 # - getting a package (code written by someone else)
 import random
 
-# - variable and assignment
+#  - variable and assignment
 # - using a function from a package
 number = random.randint(1, 30)
 guess = None
