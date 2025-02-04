@@ -2,16 +2,12 @@
 # 1. Then write the code in this script file below this line.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# sixty seconds in a minute
-seconds_minute = 60
-# sixty minutes in an hour
-minutes_hour = 60
-# twenty-four hours in a day
-hours_day = 24
-# three hundred and sixty-five days in a year
-days_year = 365
+seconds_minute = 60 # seconds in a minute
+minutes_hour = 60 # minutes in an hour
+hours_day = 24 # hours in a day
+days_year = 365 # days in a year
 
-# multiply all for total seconds in a year
+# compute the number of seconds in a year
 seconds_year = seconds_minute * minutes_hour * hours_day * days_year
 
 print(seconds_year)
