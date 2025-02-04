@@ -9,11 +9,11 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # create a list of kitten names
-# go through each name in the list
-#   check if kitten is cute
+# go through the names in the list
+# check if kitten is cute
 #   if kitten is cute, 
 #       display "Kitten is ready for adoption."
 #   otherwise,
 #       display "Kitten is not ready for adoption."
-#   repeat until all kittens are checked
+# repeat check for each kitten in the list
 # end
