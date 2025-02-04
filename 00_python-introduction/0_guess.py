@@ -1,5 +1,5 @@
 # 0. Identify the programming concepts in the guess-my-number game.
-# -----------------------------------------------------------------
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # - getting a package (code written by someone else)
 import random
