@@ -7,4 +7,5 @@ mystery = "Sommerfeld" # type: string
 mystery = 137 # type: integer
 mystery = mystery + 0.0 # type: float
 
+# display the data type of the updated variable
 print(type(mystery))
