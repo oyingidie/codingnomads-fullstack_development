@@ -2,10 +2,10 @@
 # 1. What data types does it hold at certain points earlier in the script?
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-mystery = None # type: NoneType
-mystery = "Sommerfeld" # type: str
-mystery = 137 # type: int
-mystery = mystery + 0.0 # type: float
+mystery = None # 'NoneType'
+mystery = "Sommerfeld" # 'str'
+mystery = 137 # 'int'
+mystery = mystery + 0.0 # 'float'
 
 # display the data type of the updated variable
 print(type(mystery))
