@@ -9,5 +9,3 @@ days_year = 365 # days in a year
 
 # compute number of seconds in a year
 seconds_year = seconds_minute * minutes_hour * hours_day * days_year
-
-print(seconds_year)
