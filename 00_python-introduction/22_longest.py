@@ -1,5 +1,5 @@
 # 0. Which of the following strings is the longest?
-# Use the len() function to find out.
+# 1. Use the len() function to find out.
 
 longest_german_word = "Donaudampfschifffahrtsgesellschaftskapitänskajütentürschnalle"
 longest_hungarian_word = "Megszentségteleníthetetlenségeskedéseitekért"
