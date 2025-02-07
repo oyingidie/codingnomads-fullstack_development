@@ -22,7 +22,7 @@ a = 5
 b = 2
 multiplication = a * b
 
-print(int_to_float)
-print(float_to_int)
+print(int_to_float) # no information is lost
+print(float_to_int) # fractional part is lost
 print(division)
 print(multiplication)
