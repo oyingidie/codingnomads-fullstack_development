@@ -13,14 +13,20 @@ longest_hungarian_word = "Megszentségteleníthetetlenségeskedéseitekért"
 longest_finnish_word = "Lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas"
 strong_password = "%8Ddb^ca<*'{9pur/Y(8n}^QPm3G?JJY}\(<bCGHv^FfM}.;)khpkSYTfMA@>N"
 
-if len(longest_german_word) > len(longest_hungarian_word)and len(longest_german_word) > len(longest_finnish_word) and len(longest_german_word) > len(strong_password):
-    print("The longest word is in German.")
-elif len(longest_hungarian_word) > len(longest_german_word) and len(longest_hungarian_word) > len(longest_finnish_word) and len(longest_hungarian_word) > len(strong_password):
-    print("The longest word is in Hungarian.")
-elif len(longest_finnish_word) > len(longest_german_word) and len(longest_finnish_word) > len(longest_hungarian_word) and len(longest_finnish_word) > len(strong_password):
-    print("The longest word is in Finnish.")
+if len(longest_german_word) > len(longest_hungarian_word) \
+    and len(longest_german_word) > len(longest_finnish_word) \
+    and len(longest_german_word) > len(strong_password):
+    print("The longest string is in German with", len(longest_german_word), "characters.")
+elif len(longest_hungarian_word) > len(longest_german_word) \
+    and len(longest_hungarian_word) > len(longest_finnish_word) \
+    and len(longest_hungarian_word) > len(strong_password):
+    print("The longest string is in Hungarian with", len(longest_hungarian_word), "characters.")
+elif len(longest_finnish_word) > len(longest_german_word) \
+    and len(longest_finnish_word) > len(longest_hungarian_word) \
+    and len(longest_finnish_word) > len(strong_password):
+    print("The longest string is in Finnish with", len(longest_finnish_word), "characters.")
 else:
-    print("The strongest password is the longest.")
+    print("The 
 
 
 print("The longest German word has", len(longest_german_word), "characters.")
