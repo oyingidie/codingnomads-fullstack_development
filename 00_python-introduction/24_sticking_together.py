@@ -1,6 +1,7 @@
 # SCENARIO: Some things tend to stick together.
-# Use string concatenation to stick together what you think fits well.
-# Print at least three words such as: "supergluefingers"
+#
+# 0. Use string concatenation to stick together what you think fits well.
+# 1. Print at least three words such as: "supergluefingers"
 #
 #       - glue = "superglue"
 #       - fingers = "fingers"
@@ -13,4 +14,4 @@
 #       - song = "spice girls: wannabe"
 #       - body_part = "your ear"
 #
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
