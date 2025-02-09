@@ -15,3 +15,18 @@
 #       - body_part = "your ear"
 #
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+glue = "superglue"
+fingers = "fingers"
+p = "proton"
+n = "neutron"
+pb = "peanutbutter"
+teeth = "teeth"
+gum = "gum"
+shoe = "shoe"
+song = "spice girls: wannabe"
+body_part = "your ear"
+
+print(pb + fingers)
+print(n + p + shoe)
+print(gum + teeth)
