@@ -23,3 +23,16 @@ P         Y         T      H    H      O     N       N
 """
 
 print(big_python_quoted)
+
+# using parentheses and escape characters
+big_python_escaped = (
+    "PPPP   Y     Y  TTTTTTTTT  H    H      O     N       N\n"
+    "P   P   Y   Y       T      H    H     O O    N N     N\n"
+    "P   P    Y Y        T      H    H    O   O   N  N    N\n"
+    "PPPP      Y         T      HHHHHH    O   O   N   N   N\n"
+    "P         Y         T      H    H    O   O   N    N  N\n"
+    "P         Y         T      H    H     O O    N     N N\n"
+    "P         Y         T      H    H      O     N       N\n"
+)
+
+print(big_python_escaped)
