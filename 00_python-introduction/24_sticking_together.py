@@ -13,7 +13,6 @@
 #       - shoe = "shoe"
 #       - song = "spice girls: wannabe"
 #       - body_part = "your ear"
-#
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 glue = "superglue"
