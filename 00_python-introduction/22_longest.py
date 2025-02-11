@@ -1,5 +1,4 @@
 # 0. Which of the following strings is the longest?
-#
 #       - longest_german_word = "Donaudampfschifffahrtsgesellschaftskapitänskajütentürschnalle"
 #       - longest_hungarian_word = "Megszentségteleníthetetlenségeskedéseitekért"
 #       - longest_finnish_word = "Lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas"
