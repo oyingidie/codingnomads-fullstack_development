@@ -10,7 +10,7 @@
 s = "They grappled with their leggins before going to see the buttercups flourish."
 
 # ingredients for a sumptuous dish of apple pie
-ingredient1 = s[7:12]
-ingredient2 = s[26:29]
-ingredient3 = s[-20:-14]
-ingredient4 = s[-9:-4]
+ingredient_1 = s[7:12]
+ingredient_2 = s[26:29]
+ingredient_3 = s[-20:-14]
+ingredient_4 = s[-9:-4]
