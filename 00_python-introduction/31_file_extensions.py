@@ -16,24 +16,24 @@ file_4 = "invitation.pdf"
 
 # check first file
 if file_1.endswith(".pdf"):
-    print(file_1, "is a PDF file.")
+    print('"' + file_1 + '"', "is a PDF file.")
 else:
-    print(file_1, "is not a PDF file.")
+    print('"' + file_1 + '"', "is not a PDF file.")
 
 # check second file
 if file_2.endswith(".pdf"):
-    print(file_2, "is a PDF file.")
+    print('"' + file_2 + '"', "is a PDF file.")
 else:
-    print(file_2, "is not a PDF file.")
+    print('"' + file_2 + '"', "is not a PDF file.")
 
 # check third file
 if file_3.endswith(".pdf"):
-    print(file_3, "is a PDF file.")
+    print('"' + file_3 + '"', "is a PDF file.")
 else:
-    print(file_3, "is not a PDF file.")
+    print('"' + file_3 + '"', "is not a PDF file.")
 
 # check fourth file
 if file_4.endswith(".pdf"):
-    print(file_4, "is a PDF file.")
+    print('"' + file_4 + '"', "is a PDF file.")
 else:
-    print(file_4, "is not a PDF file.")
+    print('"' + file_4 + '"', "is not a PDF file.")
