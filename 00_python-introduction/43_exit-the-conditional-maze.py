@@ -1,4 +1,4 @@
-# You wake up in a maze of `if` statements and you need
+# SCENARIO: You wake up in a maze of `if` statements and you need
 # to find the path to get out:
 #
 # .--.--.--.  .--.--.
