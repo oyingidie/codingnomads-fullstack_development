@@ -29,7 +29,7 @@
 #    that you need to take in order to get out of the maze!
 # 1. You are always facing North and you can take sideways steps
 #    without changing the direction that you're looking.
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 flag = True
 
