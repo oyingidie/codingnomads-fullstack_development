@@ -4,8 +4,8 @@
 #
 #           if hunger == "big":
 #               print("Eat the pizza")
-#elif hunger == "small":
-#    print("Eat the apple")
+#           elif hunger == "small":
+#               print("Eat the apple")
 #else:
 #    print("Don't eat anything")
 #
