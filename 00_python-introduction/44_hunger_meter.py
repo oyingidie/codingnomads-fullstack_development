@@ -7,7 +7,7 @@
 #           elif hunger == "small":
 #               print("Eat the apple")
 #           else:
-#               print("Don't eat anything")
+#               print("Don't eat anything") >>>
 #
 # 0. Replace your first `if` statement with a type check.
 # 1. If the value of `hunger` is not of the type `str`,
