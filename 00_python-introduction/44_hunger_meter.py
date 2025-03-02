@@ -4,6 +4,7 @@
 # 1. If the value of `hunger` is not of the type `str`,
 #    print a message that reminds you to  declare
 #    your hunger levels with a string.
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 hunger = 2
