@@ -79,6 +79,8 @@ if flag == True:
 if flag == True:
     print("straight ahead")
 
+flag = False
+
 if flag == True:
     print("left")
 
