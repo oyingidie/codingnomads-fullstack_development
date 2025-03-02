@@ -25,10 +25,11 @@
 # You can add as many of them as you want to, but you can't change
 # any of the code that is already there.
 #
-# Add the code so when you run it, it will print out all steps
-# that you need to take in order to get out of the maze!
-# You are always facing North and you can take sideways steps
-# without changing the direction that you're looking.
+# 0. Add the code so when you run it, it will print out all steps
+#    that you need to take in order to get out of the maze!
+# 1. You are always facing North and you can take sideways steps
+#    without changing the direction that you're looking.
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 flag = True
 
