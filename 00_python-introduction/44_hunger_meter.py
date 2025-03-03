@@ -25,4 +25,3 @@ elif hunger == "small":
     print("Eat the apple")
 else:
     print("Don't eat anything")
-    
