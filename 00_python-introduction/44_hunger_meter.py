@@ -18,7 +18,7 @@
 hunger = 2
 
 if type(hunger) != str:
-    print("Error! Hunger level is not a string.")
+    print("Error! Hunger level is not a string...")
 elif hunger == "big":
     print("Eat the pizza")
 elif hunger == "small":
