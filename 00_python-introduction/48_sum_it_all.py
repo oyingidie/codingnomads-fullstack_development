@@ -9,9 +9,9 @@
 
 start = 1
 stop = 100
-sum = 0
+loop_sum = 0
 
 for i in range(start, stop + 1):
-    sum += i
+    loop_sum += i
 
-print("The sum is:", sum)
+print("The sum is:", loop_sum)
