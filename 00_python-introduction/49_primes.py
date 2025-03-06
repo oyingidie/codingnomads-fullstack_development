@@ -11,3 +11,6 @@ for i in range(start, stop + 1):
                 break
     else:
         is_prime = False
+
+if is_prime:
+    print(i)
