@@ -3,14 +3,16 @@
 
 start = 1
 stop = 1000
+is_prime = True
 
 for i in range(start, stop + 1):
     if i > start:
-        for j in range(start + 1, i):
-            if i % j == 0:
-                break
-    else:
-        is_prime = False
+        is_prime = True
 
-if is_prime:
-    print(i)
+        for j in range(start + 1, int(i ** 0.5) + 1):
+                if (i % j) == 0:
+                    is_prime = False
+                    break
+        
+        if is_prime:
+            print(i)
