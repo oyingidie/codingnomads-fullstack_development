@@ -5,7 +5,7 @@ start = 1
 stop = 1000
 is_prime = True
 
-for i in range(start, stop + 1):
+for num in range(start, stop + 1):
     if i > start:
         is_prime = True
 
@@ -15,4 +15,4 @@ for i in range(start, stop + 1):
                     break
         
         if is_prime:
-            print(i)
+            print(num)
