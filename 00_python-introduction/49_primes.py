@@ -9,7 +9,7 @@ for num in range(start, stop + 1):
     if num > start:
         is_prime = True
 
-        for j in range(start + 1, int(num ** 0.5) + 1):
+        for i in range(start + 1, int(num ** 0.5) + 1):
                 if (num % i) == 0:
                     is_prime = False
                     break
