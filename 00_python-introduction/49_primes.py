@@ -6,11 +6,11 @@ stop = 1000
 is_prime = True
 
 for num in range(start, stop + 1):
-    if i > start:
+    if num > start:
         is_prime = True
 
-        for j in range(start + 1, int(i ** 0.5) + 1):
-                if (i % j) == 0:
+        for j in range(start + 1, int(num ** 0.5) + 1):
+                if (num % i) == 0:
                     is_prime = False
                     break
         
