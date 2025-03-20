@@ -3,7 +3,7 @@
 
 start = 1
 stop = 1000
-is_prime = True
+is_prime = False
 
 for num in range(start, stop + 1):
     if num > start:
