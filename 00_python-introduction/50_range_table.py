@@ -14,4 +14,5 @@ for num in range(0, 50, 10):
     for i in range(num, num + 10):
         # print each number
         print(i, end=" ")
+    print()
     
