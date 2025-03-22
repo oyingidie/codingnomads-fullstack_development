@@ -8,5 +8,10 @@
 #       40 41 42 43 44 45 46 47 48 49
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+# loop from 0 to 50 in steps of 10
 for num in range(0, 50, 10):
+    # loop from first to last number in each step
     for i in range(num, num + 10):
+        # print 
+        print(i, end=" ")
+    
