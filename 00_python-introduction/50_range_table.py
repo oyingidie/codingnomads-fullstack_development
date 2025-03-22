@@ -12,6 +12,6 @@
 for num in range(0, 50, 10):
     # print every number in each step
     for i in range(num, num + 10):
-        
         print(i, end=" ")
+    # print each step in a new line
     print()
