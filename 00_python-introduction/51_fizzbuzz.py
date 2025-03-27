@@ -12,6 +12,7 @@ n = int(input("Set a number limit: "))
 
 # loop through and print numbers from 1 to n
 for num in range(1, n + 1):
+    # check the constraints
     if (num % 3 == 0) and (num % 5 == 0): # last constraint
         print("FizzBuzz")
     elif num % 3 == 0: # first constraint
