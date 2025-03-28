@@ -2,9 +2,9 @@
 #    and uses a boolean value to define whether it has `wool` or not.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# assign a name to sheep
+# assign a name to a sheep
 sheep_name = "Fluffy"
-# define physical attribute of the animal
+# define its physical attribute
 has_wool = True
 
 if has_wool:
