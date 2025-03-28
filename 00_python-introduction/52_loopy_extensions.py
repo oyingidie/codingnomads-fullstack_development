@@ -13,14 +13,15 @@
 filename = "operators.pdf"
 is_pdf = False
 
+# loop through the filename
 for i in range(len(filename)):
+    # check if extension is .pdf
     if filename[i] == '.':
         if filename[i + 1] == 'p':
             if filename[i + 2] == 'd':
                 if filename[i + 3] == 'f':
                     is_pdf = True
-                else:
-                    is_pdf = False
+                    break
 
 if is_pdf:
     print('"' + filename + '" is a PDF file.')
