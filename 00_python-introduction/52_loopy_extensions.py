@@ -10,8 +10,8 @@
 # for example flags and conditional statements.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-filename = "operators.pdf"
 is_pdf = False
+filename = "operators.pdf"
 
 # loop through the filename
 for i in range(len(filename)):
