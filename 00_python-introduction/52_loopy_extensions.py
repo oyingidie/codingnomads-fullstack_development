@@ -22,3 +22,5 @@ for i in range(len(filename)):
                 else:
                     is_pdf = False
 
+if is_pdf:
+    print('"' + filename + '" is a PDF file.')
