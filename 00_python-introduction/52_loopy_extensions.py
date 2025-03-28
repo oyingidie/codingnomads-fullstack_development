@@ -1,7 +1,7 @@
 # 0: Proof that the following file is a .pdf file using a `for` loop.
 #           - filename = "operators.pdf"
 #
-#Don't use the string method you've used to solve this before!
+# 1: Don't use the string method you've used to solve this before!
 #Don't use the `in` keyword to look for a sub-string!
 #Don't use any string slicing technique either!
 #
