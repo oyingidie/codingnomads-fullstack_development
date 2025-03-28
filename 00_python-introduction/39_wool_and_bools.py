@@ -4,7 +4,7 @@
 
 # assign name to sheep
 sheep_name = "Fluffy"
-# physical attribute of animal
+# define physical attribute of the animal
 has_wool = True
 
 if has_wool:
