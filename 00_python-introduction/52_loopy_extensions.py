@@ -10,6 +10,7 @@
 # for example flags and conditional statements.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+# define parameters
 is_pdf = False
 filename = "operators.pdf"
 
