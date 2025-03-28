@@ -19,5 +19,6 @@ for i in range(len(filename)):
             if filename[i + 2] == 'd':
                 if filename[i + 3] == 'f':
                     is_pdf = True
-                    
+                else:
+                    is_pdf = False
 
