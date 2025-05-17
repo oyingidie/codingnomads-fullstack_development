@@ -13,9 +13,15 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # fetch story (import or copy-paste)
+
 # initialise variable for translation
+
 # iterate over each word in the story
+
     # check if the word is valid
+        
         # translate
+
         # otherwise add word as is
+
 # print the translated story
