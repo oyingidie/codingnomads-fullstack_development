@@ -25,9 +25,12 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # set pyramid size
+stars = 5
 
-    # loop through the number of stars
-
-        # print the stars for each row
-
+# loop through the number of stars
+for i in range(1, stars + 1):
+    # print the stars for each row
+    for j in range(i):
+        print("*", end=" ")
     # move to the next row
+    print()
