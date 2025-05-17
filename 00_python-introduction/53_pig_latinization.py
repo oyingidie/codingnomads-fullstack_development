@@ -24,9 +24,9 @@ adventure would change their lives forever."""
 pig_latin_story = ""
 
 # iterate over each word in the story
-
+for word in story.split():
     # check if the word is valid
-        
+    if word.isalpha():    
         # translate
 
         # otherwise add word as is
