@@ -11,3 +11,11 @@
 # TIP: You'll need to use conditional statements to decide when a word is over.
 #           e.g. You would never guess --> ouyay ouldway evernay uessgay
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# fetch story (import or copy-paste)
+# initialise variable for translation
+# iterate over each word in the story
+    # check if the word is valid
+        # translate
+        # otherwise add word as is
+# print the translated story
