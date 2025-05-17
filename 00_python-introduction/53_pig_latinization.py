@@ -32,3 +32,4 @@ pig_latin_story = ""
         # otherwise add word as is
 
 # print the translated story
+print(pig_latin_story)
