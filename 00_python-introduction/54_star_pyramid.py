@@ -23,3 +23,8 @@
 #
 # HINT: Think of nested for loops!
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# set pyramid size
+# loop through the number of stars
+# print the stars for each row
+# move to the next row
