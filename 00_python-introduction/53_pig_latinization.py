@@ -21,6 +21,7 @@ they could feel the excitement in the air. Little did they know, this
 adventure would change their lives forever."""
 
 # initialise variable for translation
+pig_latin_story = ""
 
 # iterate over each word in the story
 
