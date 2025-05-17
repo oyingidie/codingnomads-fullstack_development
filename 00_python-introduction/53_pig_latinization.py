@@ -28,7 +28,7 @@ for word in story.split():
     # check if the word is valid
     if word.isalpha():    
         # translate
-
+        pig_latin_word = word[1:] + word[0] + "ay"
         # otherwise add word as is
 
 # print the translated story
