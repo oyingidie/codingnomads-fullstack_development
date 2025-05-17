@@ -13,6 +13,12 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # fetch story (import or copy-paste)
+story = """Once upon a time, in a land far, far away, there lived a
+group of adventurers. They were brave and bold, always seeking new
+challenges and experiences. One day, they stumbled upon a mysterious
+cave that was said to hold great treasures. As they entered the cave,
+they could feel the excitement in the air. Little did they know, this 
+adventure would change their lives forever."""
 
 # initialise variable for translation
 
