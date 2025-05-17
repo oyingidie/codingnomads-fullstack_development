@@ -26,8 +26,8 @@
 
 # set pyramid size
 
-# loop through the number of stars
+    # loop through the number of stars
 
-# print the stars for each row
+        # print the stars for each row
 
-# move to the next row
+    # move to the next row
