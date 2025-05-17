@@ -34,5 +34,8 @@ for word in story.split():
     else:
         pig_latin_story += word + " "
 
+# remove trailing space
+pig_latin_story = pig_latin_story.strip()
+
 # print the translated story
 print(pig_latin_story)
