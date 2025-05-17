@@ -30,7 +30,7 @@ for word in story.split():
         # translate
         pig_latin_word = word[1:] + word[0] + "ay"
         pig_latin_story += pig_latin_word + " "
-        # otherwise add word as is
+    # otherwise add word as is
 
 # print the translated story
 print(pig_latin_story)
