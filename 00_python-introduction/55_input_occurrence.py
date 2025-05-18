@@ -6,3 +6,11 @@
 #           Letter input: o
 #           Result: 4
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+words = input("Enter a string of words: ")
+letter = input("Enter a letter: ")
+
+if letter in words:
+    index = words.index(letter)
+    print(f"The first occurrence of {letter} in the string is at index: {index}")
+    
