@@ -8,3 +8,4 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 words = input("Enter a string of words: ")
+symbol = input("Enter a symbol: ")
