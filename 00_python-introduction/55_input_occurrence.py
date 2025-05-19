@@ -15,4 +15,6 @@ while len(letter) != 1 or not letter.isalpha():
 
 if letter in words:
     index = words.index(letter)
-    print(f"The first occurrence of {letter} in the string is at index: {index}")
+    print(f"The first occurrence of '{letter}' in the string is at index: {index}")
+else:
+    print(f"There is no occurrence of the letter '{letter}' in the string.")
