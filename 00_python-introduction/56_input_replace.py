@@ -15,9 +15,14 @@ while len(symbol) != 1 or symbol.isalpha():
     print(f"'{symbol}' is not a symbol.")
     symbol = input("Please enter only one symbol: ")
 
-if first_letter == symbol:
+while first_letter == symbol:
     print("A new symbol is required to encode your message.")
-    input("Would you like to try a different symbol? (y/n): ")
+    retry = input("Would you like to try a different symbol? (y/n): ")
+    if retry.lower() == 'y':
+        symbol = input("New symbol: ")
+    else:
+        
+    
 else:
     words = words.replace(first_letter, symbol)
     print(f"")
