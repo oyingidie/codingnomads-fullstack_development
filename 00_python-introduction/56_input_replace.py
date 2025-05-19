@@ -18,11 +18,13 @@ while len(symbol) != 1 or symbol.isalpha():
 while first_letter == symbol:
     print("A new symbol is required to encode your message.")
     retry = input("Would you like to try a different symbol? (y/n): ")
+    
     if retry.lower() == 'y':
         symbol = input("New symbol: ")
     else:
-        
+        print("Exiting the program...")
+        exit()
     
-else:
-    words = words.replace(first_letter, symbol)
-    print(f"")
+
+words = words.replace(first_letter, symbol)
+print("Your message is encoded successfully.")
