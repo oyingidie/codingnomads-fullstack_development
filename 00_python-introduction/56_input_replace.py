@@ -7,8 +7,8 @@
 #           Result: §ore python progra§§ing please
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-words = input("Enter a string of words: ")
-symbol = input("Enter a symbol: ")
+words = input("Input your message: ")
+symbol = input("Choose an encoding symbol: ")
 first_letter = words[0]
 
 while len(symbol) != 1 or symbol.isalpha():
@@ -16,4 +16,8 @@ while len(symbol) != 1 or symbol.isalpha():
     symbol = input("Please enter only one symbol: ")
 
 if first_letter == symbol:
-    print("The first letter of your string is the same as the inputted symbol.")
+    print("A new symbol is required to encode your message.")
+    input("Would you like to try a different symbol? (y/n): ")
+else:
+    words = words.replace(first_letter, symbol)
+    print(f"")
