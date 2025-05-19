@@ -6,3 +6,5 @@
 #           Symbol input: §
 #           Result: §ore python progra§§ing please
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+words = input("Enter a string of words: ")
