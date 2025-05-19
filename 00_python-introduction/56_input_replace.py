@@ -9,3 +9,9 @@
 
 words = input("Enter a string of words: ")
 symbol = input("Enter a symbol: ")
+
+first_letter = words[0]
+
+while len(symbol) != 1 or symbol.isalpha():
+    print(f"'{symbol}' is not a symbol.")
+    symbol = input("Please enter only one symbol: ")
