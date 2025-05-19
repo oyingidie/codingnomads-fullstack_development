@@ -10,8 +10,8 @@
 words = input("Enter a string of words: ")
 letter = input("Enter a letter: ")
 
-while len(letter) != 1:
-    letter = input("Please enter a single letter... ")
+while len(letter) != 1 and not letter.isalpha():
+    letter = input("Invalid input... Please enter a single letter: ")
 
 if letter in words:
     index = words.index(letter)
