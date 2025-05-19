@@ -28,4 +28,7 @@ while first_letter == symbol:
 
 words = words.replace(first_letter, symbol)
 print("Your message is encoded successfully.")
-view = input("Would you like to see the encoded message? (y/n): ")
+preview = input("Would you like to see the encoded message? (y/n): ")
+
+if preview.lower() == 'y':
+    print(f"Encoded message: \n{words}")
