@@ -26,7 +26,7 @@ while first_letter == symbol:
         exit()
     else:
         while true:
-            print("Invalid option. Please enter 'Y or 'N'.")
+            retry = input("Invalid option. Please enter 'Y or 'N': ")
 
 words = words.replace(first_letter, symbol)
 print("Your message is encoded successfully.")
