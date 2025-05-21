@@ -15,3 +15,4 @@ while number < 1 or number > 1000000000:
         exit()
     else:
         print("That's not valid. The system will go to sleep now...")
+        exit()
