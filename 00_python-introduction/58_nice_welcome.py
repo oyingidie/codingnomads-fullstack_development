@@ -8,4 +8,4 @@
 name = input("Please provide your name: ")
 
 if " " in name:
-    name = name.split(" ")[0]
+    first_name = name.split(" ")[0]
