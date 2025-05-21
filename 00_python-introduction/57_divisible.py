@@ -16,3 +16,7 @@ while number < 1 or number > 1000000000:
     else:
         print("That's not valid. The system will go to sleep now...")
         exit()
+
+if number % 3 == 0:
+    quotient = number // 3
+    print(f"{number} is divisible by 3 to give '{quotient}'.")
