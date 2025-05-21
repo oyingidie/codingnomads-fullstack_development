@@ -12,3 +12,6 @@ while number < 1 or number > 1000000000:
         number = int(input("Please enter a number between 1 and 1,000,000,000: "))
     elif reload.upper() == "N":
         print("I hope you come back soon. Bye!")
+        exit()
+    else:
+        print("That's not valid. The system will go to sleep now...")
