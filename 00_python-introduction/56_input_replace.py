@@ -29,7 +29,7 @@ words = words.replace(first_letter, symbol)
 print("Your message is encoded successfully.")
 preview = input("Would you like to see the encoded message? (Y/N): ")
 
-if preview.lower() == 'Y':
+if preview.upper() == 'Y':
     print(f"See your encoded message below: \n{words}")
 else:
     print("You can always check your message later.\nGoodbye!")
