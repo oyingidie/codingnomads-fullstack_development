@@ -17,11 +17,11 @@ while len(symbol) != 1 or symbol.isalpha():
 
 while first_letter == symbol:
     print("A new symbol is required to encode your message.")
-    retry = input("Would you like to try a different symbol? (y/n): ")
+    retry = input("Would you like to try a different symbol? (Y/N): ")
     
-    if retry.lower() == 'y':
+    if retry.upper() == 'Y':
         symbol = input("New symbol: ")
-    else:
+    elif retry.upper() == 'N':
         print("Exiting the program...")
         exit()
     
