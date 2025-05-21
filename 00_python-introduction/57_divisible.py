@@ -2,3 +2,10 @@
 #    and determines whether it is divisible by 3 using an `if` statement.
 # 1. Print the result.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+number = int(input("Please enter a number between 1 and 1,000,000,000: "))
+
+while number < 1 or number > 1000000000:
+    print("Ooops! That's not between 1 and 1,000,000,000.")
+    retry = input("Wanna try again? Press Y or N: ")
+    if retry.upper() == "Y":
