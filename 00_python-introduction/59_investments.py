@@ -12,4 +12,4 @@ period = int(input("Enter the number of years you wish to invest for: "))
 
 future_value = amount * (1 + interest_rate / 100) ** period
 
-print(f"Your investment of {amount} will be worth {future_value} in {period} years time.")
+print(f"Your investment of {amount} will be worth {future_value:.2f} in {period} years time.")
