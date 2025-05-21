@@ -4,3 +4,8 @@
 #    then use only their first name to overstep some personal boundaries
 #    in your welcome message.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+name = input("Please provide your name: ")
+
+if " " in name:
+    name = name.split(" ")[0]
