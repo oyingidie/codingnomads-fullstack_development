@@ -9,3 +9,6 @@ name = input("Please provide your name: ")
 
 if " " in name:
     first_name = name.split(" ")[0]
+else:
+    first_name = name
+    
