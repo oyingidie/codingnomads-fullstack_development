@@ -11,4 +11,5 @@ if " " in name:
     first_name = name.split(" ")[0]
 else:
     first_name = name
-    
+
+print(f"Welcome to my script, {first_name}! I hope you enjoy your stay.")
