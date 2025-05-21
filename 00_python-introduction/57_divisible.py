@@ -7,5 +7,8 @@ number = int(input("Please enter a number between 1 and 1,000,000,000: "))
 
 while number < 1 or number > 1000000000:
     print("Ooops! That's not between 1 and 1,000,000,000.")
-    retry = input("Wanna try again? Press Y or N: ")
-    if retry.upper() == "Y":
+    reload = input("Wanna try again? Press Y or N: ")
+    if reload.upper() == "Y":
+        number = int(input("Please enter a number between 1 and 1,000,000,000: "))
+    elif reload.upper() == "N":
+        print("I hope you come back soon. Bye!")
