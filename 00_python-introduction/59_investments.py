@@ -6,4 +6,5 @@
 # 1. Calculate the future values and print them to the console.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-amount = float(input("Enter your investment amount:"))
+amount = float(input("Enter your investment amount: "))
+interest_rate = float(input("Enter the applicable interest rate in percentage: "))
