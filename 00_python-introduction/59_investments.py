@@ -8,3 +8,4 @@
 
 amount = float(input("Enter your investment amount: "))
 interest_rate = float(input("Enter the applicable interest rate in percentage: "))
+period = int(input("Enter the number of years you wish to invest for: "))
