@@ -24,7 +24,6 @@ while first_letter == symbol:
     elif retry.upper() == 'N':
         print("Exiting the program...")
         exit()
-    
 
 words = words.replace(first_letter, symbol)
 print("Your message is encoded successfully.")
