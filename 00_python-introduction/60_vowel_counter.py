@@ -11,7 +11,7 @@ for vowel in vowels:
 
     if vowel_count == 0:
         print(f"The vowel '{vowel}' did not appear in the message.")
-    else if vowel_count == 1:
+    elif vowel_count == 1:
         print(f"The vowel '{vowel}' appeared just once in the message.")
     else:
         print(f"The vowel '{vowel}' appeared {vowel_count} times in the message.")
