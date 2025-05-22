@@ -2,16 +2,17 @@
 #    a total count of how often each individual vowel appeared.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-vowel_count = 0
+
 vowels = ['a', 'e', 'i', 'o', 'u']
-user_input = input("Enter a message: ")
+user_input = input("Enter a text: ")
 
 for vowel in vowels:
+    vowel_count = 0
     vowel_count += user_input.lower().count(vowel)
 
     if vowel_count == 0:
-        print(f"The vowel '{vowel}' did not appear in the message.")
+        print(f"There is no '{vowel}' in the text.")
     elif vowel_count == 1:
-        print(f"The vowel '{vowel}' appeared just once in the message.")
+        print(f"The vowel '{vowel}' appeared only once in the text.")
     else:
-        print(f"The vowel '{vowel}' appeared {vowel_count} times in the message.")
+        print(f"The vowel '{vowel}' appeared {vowel_count} times in the text.")
