@@ -2,7 +2,6 @@
 #    a total count of how often each individual vowel appeared.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 vowels = ['a', 'e', 'i', 'o', 'u']
 user_input = input("Enter a text: ")
 
