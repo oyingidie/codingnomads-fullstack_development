@@ -10,7 +10,7 @@
 #                   -   9, greetings
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-print("This a test of character; you'll be required to enter three strings.")
+print("This a test of character. You'll be required to enter three strings.\n")
 
 first_string = input("The first string: ")
 second_string = input("The second string: ")
