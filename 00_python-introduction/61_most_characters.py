@@ -20,7 +20,18 @@ length_0 = len(first_string)
 length_1 = len(second_string)
 length_2 = len(third_string)
 
-if length_0 == length_1 and length_1 == length_2:
-    print(f"All strings are equal with {length_0} charcter(s)")
-elif length_0 > length_1 and length_0 > length_2:
-    print(f"\"{first_string}\" is the longest string with {length_0} characters")
+if (length_0 == length_1) and (length_1 == length_2):
+    print(f"All strings are of equal length with {length_0} charcter(s) each.")
+elif (length_0 > length_1) and (length_0 > length_2):
+    print(f"\"{first_string}\" is the longest string with {length_0} characters!")
+elif (length_1 > length_0) and (length_1 > length_2):
+    print(f"\"{second_string}\" is the longest string with {length_1} characters!")
+elif (length_2 > length_0) and (length_2 > length_1):
+    print(f"\"{third_string}\" is the longest string with {length_2} characters!")
+elif (length_0 == length_1) and (length_0 > length_2):
+    print(f"Both \"{first_string}\" and \"{second_string}\" are the longest strings with {length_0} characters each.")
+elif (length_0 == length_2) and (length_0 > length_1):
+    print(f"\"{first_string}\" and \"{third_string}\" are the longest strings with {length_0} characters")
+elif (length_1 == length_2) and (length_1 > length_0):
+    print(f"\"{second_string}\" and \"{third_string}\" are the longest strings with {length_1} characters")
+else:
