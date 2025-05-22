@@ -4,8 +4,8 @@
 
 vowel_count = 0
 vowels = ['a', 'e', 'i', 'o', 'u']
-user_input = input("Enter a string: ")
+user_input = input("Enter a message: ")
 
 for vowel in vowels:
     vowel_count += user_input.lower().count(vowel)
-    print(f"The vowel '{vowel}' appeared {vowel_count} times ")
+    print(f"The vowel '{vowel}' appeared {vowel_count} times in the message.")
