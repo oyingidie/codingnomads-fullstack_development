@@ -10,7 +10,7 @@ for vowel in vowels:
     vowel_count += user_input.lower().count(vowel)
 
     if vowel_count == 0:
-        print(f"There is no '{vowel}' in the text.")
+        print(f"The text does not contain the vowel '{vowel}'.")
     elif vowel_count == 1:
         print(f"The vowel '{vowel}' appeared only once in the text.")
     else:
