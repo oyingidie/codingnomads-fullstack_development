@@ -31,7 +31,7 @@ elif (length_2 > length_0) and (length_2 > length_1):
 elif (length_0 == length_1) and (length_0 > length_2):
     print(f"Both \"{first_string}\" and \"{second_string}\" are the longest strings with {length_0} characters each.")
 elif (length_0 == length_2) and (length_0 > length_1):
-    print(f"Both \"{first_string}\" and \"{third_string}\" are the longest strings with {length_0} characters")
+    print(f"Both \"{first_string}\" and \"{third_string}\" are the longest strings with {length_0} characters each.")
 elif (length_1 == length_2) and (length_1 > length_0):
-    print(f"Both \"{second_string}\" and \"{third_string}\" are the longest strings with {length_1} characters")
+    print(f"Both \"{second_string}\" and \"{third_string}\" are the longest strings with {length_1} characters each.")
 else:
