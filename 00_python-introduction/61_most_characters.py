@@ -35,3 +35,4 @@ elif (length_0 == length_2) and (length_0 > length_1):
 elif (length_1 == length_2) and (length_1 > length_0):
     print(f"Both \"{second_string}\" and \"{third_string}\" are the longest strings with {length_1} characters each.")
 else:
+    print(f"All strings are of equal length with {length_0} charcter(s) each.")
