@@ -25,7 +25,7 @@ while first_letter == symbol:
         print("Exiting the program...")
         exit()
     else:
-        while true:
+        while retry.upper() not in ['Y', 'N']:
             retry = input("Invalid option. Please enter 'Y or 'N': ")
 
 words = words.replace(first_letter, symbol)
