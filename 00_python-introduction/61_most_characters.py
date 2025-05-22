@@ -20,6 +20,7 @@ length_0 = len(first_string)
 length_1 = len(second_string)
 length_2 = len(third_string)
 
-if 
-len(first_string) > len(second_string) and len(first_string) > len(third_string):
-    print(f"\"{first_string}\" is the longest string with {len(first_string)} characters")
+if length_0 == length_1 and length_1 == length_2:
+    print(f"All strings are equal with {length_0} charcter(s)")
+elif length_0 > length_1 and length_0 > length_2:
+    print(f"\"{first_string}\" is the longest string with {length_0} characters")
