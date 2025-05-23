@@ -18,15 +18,15 @@ while len(symbol) != 1 or symbol.isalpha():
 while first_letter == symbol:
     print("A new symbol is required to encode your message.")
     retry = input("Would you like to try a different symbol? [Y/N]: ")
+
+    while retry.upper() not in ['Y', 'N']:
+        retry = input("Invalid option. Choose \"Yes\" [Y] or \"No\" [N]: ")
     
     if retry.upper() == 'Y':
         symbol = input("New symbol: ")
-    elif retry.upper() == 'N':
+    else:
         print("Exiting the program...")
         exit()
-    else:
-        while retry.upper() not in ['Y', 'N']:
-            retry = input("Invalid option. Yes [Y] or No [N]: ")
 
 words = words.replace(first_letter, symbol)
 print("Your message is encoded successfully.")
