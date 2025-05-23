@@ -32,6 +32,9 @@ words = words.replace(first_letter, symbol)
 print("Your message is encoded successfully.")
 preview = input("Would you like to see the encoded message? (Y/N): ")
 
+while preview.upper() not in ['Y', 'N']:
+        preview = input("Invalid option. Choose \"Yes\" [Y] or \"No\" [N]: ")
+
 if preview.upper() == 'Y':
     print(f"See your encoded message below: \n{words}")
 else:
