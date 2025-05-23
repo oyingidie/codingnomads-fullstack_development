@@ -35,4 +35,4 @@ preview = input("Would you like to see the encoded message? (Y/N): ")
 if preview.upper() == 'Y':
     print(f"See your encoded message below: \n{words}")
 else:
-    print("You can always check your message later.\nGoodbye!")
+    print("You can always preview your secret message later.\nGoodbye!")
