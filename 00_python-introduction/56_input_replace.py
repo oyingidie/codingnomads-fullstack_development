@@ -16,12 +16,11 @@ while len(symbol) != 1 or symbol.isalpha():
     symbol = input("Please enter only one symbol: ")
 
 while first_letter == symbol:
-    print("A new symbol is required to encode your message.")
-    retry = input("Would you like to try a different symbol? [Y/N]: ")
+    print("A \"new\" symbol is required to encode your message.")
+    retry = input("Would you like to proceed? [Y/N]: ")
 
     while retry.upper() not in ['Y', 'N']:
-        retry = input("Invalid option. Choose \"Yes\" [Y] or \"No\" [N]: ")
-    
+        retry = input("Invalid option. Enter 'Y' [Yes] or 'N' [No]: ")
     if retry.upper() == 'Y':
         symbol = input("New symbol: ")
     else:
@@ -33,8 +32,7 @@ print("Your message is encoded successfully.")
 preview = input("Would you like to see the encoded message? (Y/N): ")
 
 while preview.upper() not in ['Y', 'N']:
-        preview = input("Invalid option. Choose \"Yes\" [Y] or \"No\" [N]: ")
-
+        preview = input("Invalid option. Enter 'Y' [Yes] or 'N' [No]: ")
 if preview.upper() == 'Y':
     print(f"See your encoded message below: \n{words}")
 else:
