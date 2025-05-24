@@ -17,7 +17,7 @@ control = "\N{mathematical bold capital d}"\
 + "\N{mathematical bold small l}"\
 + "\N{mathematical bold small s}"
 
-print(f"Hello! My name is {control}... I'm on the lookout for vowels in your data.")
+print(f"Hello! My name is {control}. I'm on the lookout for vowels in your data.")
 player_name = input("What is your name, please? ")
 
 while " " in player_name:
