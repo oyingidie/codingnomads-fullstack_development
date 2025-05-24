@@ -11,7 +11,7 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 print("This a test of character \U0001F609... You'll be required to enter three strings.")
-print("Your string can be a word, a number, or a sentence; but it cannot be empty.}")
+print("Your string can be a word, a number, or a sentence; but it cannot be empty.\n")
 
 first_string = input("The first string: ")
 second_string = input("The second string: ")
