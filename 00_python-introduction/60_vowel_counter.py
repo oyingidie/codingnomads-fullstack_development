@@ -10,11 +10,11 @@ while " " in player_name:
     player_name = player_name.split(" ")[0]
 
 if player_name:
-    player_first_name = player_name
+    player = player_name
 else:
-    player_first_name = "Anonymous"
+    player = "Anonymous"
 
-print(f"Nice to meet you, {}")
+print(f"Nice to meet you, {player}!")
 
 vowels = ['a', 'e', 'i', 'o', 'u']
 user_input = input("Enter any data of your choice: ")
