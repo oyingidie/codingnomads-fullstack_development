@@ -33,6 +33,8 @@ while length_0 == 0 or length_1 == 0 or length_2 == 0:
         length_2 = len(third_string)
     elif (length_0 == 0) and (length_1 == 0):
         print("Both your first and second strings are empty. Please enter a string for each.")
+        first_string = input("Your first string: ")
+        second_string = input("Your second string: ")
 
 if (length_0 > length_1) and (length_0 > length_2):
     print(f"\"{first_string}\" is the longest string with {length_0} characters!")
