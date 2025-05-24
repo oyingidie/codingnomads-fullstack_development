@@ -3,7 +3,7 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 vowels = ['a', 'e', 'i', 'o', 'u']
-user_input = input("Enter any data of your choice: "
+user_input = input("Enter any data of your choice: ")
 
 for vowel in vowels:
     vowel_count = 0
