@@ -2,6 +2,14 @@
 #    a total count of how often each individual vowel appeared.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 control = "\N{mathematical bold capital d}"\
++ "\N{mathematical bold small e}"\
++ "\N{mathematical bold small t}"\
++ "\N{mathematical bold small e}"\
++ "\N{mathematical bold small c}"\
++ "\N{mathematical bold small t}"\
++ "\N{mathematical bold small i}"\
++ "\N{mathematical bold small v}"\
++ "\N{mathematical bold small e}"\
 
 print(f"Hello! My name is {control}... I'm on the lookout for vowels in your data.")
 player_name = input("What is your name, please? ")
