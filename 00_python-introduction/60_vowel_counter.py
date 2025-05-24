@@ -14,10 +14,10 @@ if player_name:
 else:
     player = "Anonymous"
 
-print(f"Nice to meet you, {player}!")
+print(f"\nNice to meet you, {player}!")
+user_input = input("Enter any data of your choice: ")
 
 vowels = ['a', 'e', 'i', 'o', 'u']
-user_input = input("Enter any data of your choice: ")
 
 for vowel in vowels:
     vowel_count = 0
