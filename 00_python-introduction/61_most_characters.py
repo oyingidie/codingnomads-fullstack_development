@@ -22,7 +22,7 @@ length_2 = len(third_string)
 
 while length_0 == 0 or length_1 == 0 or length_2 == 0:
     if length_0 == 0:
-        first_string = input("The first string is empty.\nPlease enter a new string: ")
+        first_string = input("The first string is empty.\nPlease enter the first string: ")
         length_0 = len(first_string)
     elif length_1 == 0:
         second_string = input("The second string is empty.\nPlease enter a new string: ")
