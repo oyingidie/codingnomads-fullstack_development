@@ -30,6 +30,7 @@ else:
 
 print(f"\nNice to meet you, {player}!")
 user_input = input("Enter any data of your choice: ")
+print("\nData Investigation Report:")
 
 vowels = ['a', 'e', 'i', 'o', 'u']
 
