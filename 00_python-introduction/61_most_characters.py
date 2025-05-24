@@ -40,7 +40,6 @@ while length_0 == 0 or length_1 == 0 or length_2 == 0:
         third_string = input("Your third string: ")
         length_1 = len(second_string)
         length_2 = len(third_string)
-
     elif length_0 == 0:
         first_string = input("Your first string is empty.\nPlease enter a string: ")
         length_0 = len(first_string)
