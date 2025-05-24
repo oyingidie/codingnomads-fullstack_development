@@ -24,6 +24,10 @@ while length_0 == 0 or length_1 == 0 or length_2 == 0:
     if length_0 == 0:
         first_string = input("The first string is empty.\nPlease enter a new string: ")
         length_0 = len(first_string)
+    elif length_1 == 0:
+        second_string = input("The second string is empty.\nPlease enter a new string: ")
+        length_1 = len(second_string)
+    
 
 if (length_0 > length_1) and (length_0 > length_2):
     print(f"\"{first_string}\" is the longest string with {length_0} characters!")
