@@ -10,6 +10,12 @@ control = "\N{mathematical bold capital d}"\
 + "\N{mathematical bold small i}"\
 + "\N{mathematical bold small v}"\
 + "\N{mathematical bold small e}"\
++ " " + "\N{mathematical bold capital v}"\
++ "\N{mathematical bold small o}"\
++ "\N{mathematical bold small w}"\
++ "\N{mathematical bold small e}"\
++ "\N{mathematical bold small l}"\
++ "\N{mathematical bold small s}"
 
 print(f"Hello! My name is {control}... I'm on the lookout for vowels in your data.")
 player_name = input("What is your name, please? ")
