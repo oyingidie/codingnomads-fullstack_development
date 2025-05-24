@@ -16,12 +16,14 @@ print("Your string can be a word, a number, or a sentence; but it cannot be empt
 first_string = input("The first string: ")
 second_string = input("The second string: ")
 third_string = input("The third string: ")
-
 length_0 = len(first_string)
 length_1 = len(second_string)
 length_2 = len(third_string)
 
-while length_0 == 0 or length_1 == 0 or length_2 == 0:
+if (length_0 == 0) and (length_1 == 0) and (length_2 == 0):
+
+
+while (length_0 == 0) or (length_1 == 0) or (length_2 == 0):
     if (length_0 == 0) and (length_1 == 0):
         print("Both your first and second strings are empty. Please enter a string for each.")
         first_string = input("Your first string: ")
