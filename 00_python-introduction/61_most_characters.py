@@ -8,9 +8,10 @@
 #
 #       Example [Output]:
 #                   -   9, greetings
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-print("This a test of character. You'll be required to enter three strings.\n")
+print("This a test of character. You'll be required to enter three strings.")
+print("Your string can be a word, a number, or a sentence; but it cannot be empty.}")
 
 first_string = input("The first string: ")
 second_string = input("The second string: ")
