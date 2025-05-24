@@ -4,13 +4,15 @@
 control = "\N{mathematical bold capital d}"\
 
 print(f"Hello! My name is {control}... I'm on the lookout for vowels in your data.")
-
 player_name = input("What is your name, please? ")
 
-if " " in player_name:
-    player_first_name = player_name.split(" ")[0]
-else:
+while " " in player_name:
+    player_name = player_name.split(" ")[0]
+
+if player_name:
     player_first_name = player_name
+else:
+    player_name = "Anonymous"
 
 print(f"Nice to meet you, {}")
 
