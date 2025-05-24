@@ -21,7 +21,7 @@ length_1 = len(second_string)
 length_2 = len(third_string)
 
 while (length_0 == 0) and (length_1 == 0) and (length_2 == 0):
-    print("Your strings cannot be empty! Try again.")
+    print("You have not entered any strings. Please try again.")
     first_string = input("Your first string: ")
     second_string = input("Your second string: ")
     third_string = input("Your third string: ")
