@@ -12,7 +12,7 @@ while " " in player_name:
 if player_name:
     player_first_name = player_name
 else:
-    player_name = "Anonymous"
+    player_first_name = "Anonymous"
 
 print(f"Nice to meet you, {}")
 
