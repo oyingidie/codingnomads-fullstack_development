@@ -36,6 +36,11 @@ while length_0 == 0 or length_1 == 0 or length_2 == 0:
         length_2 = len(third_string)
     elif (length_1 ==0) and (length_2 == 0):
         print("Both your second and third strings are empty. Please enter a string for each.")
+        second_string = input("Your second string: ")
+        third_string = input("Your third string: ")
+        length_1 = len(second_string)
+        length_2 = len(third_string)
+
     elif length_0 == 0:
         first_string = input("Your first string is empty.\nPlease enter a string: ")
         length_0 = len(first_string)
