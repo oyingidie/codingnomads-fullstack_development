@@ -28,7 +28,12 @@ while length_0 == 0 or length_1 == 0 or length_2 == 0:
         second_string = input("Your second string: ")
         length_0 = len(first_string)
         length_1 = len(second_string)
-    
+    elif (length_0 == 0) and (length_2 == 0):
+        print("Both your first and third strings are empty. Please enter a string for each.")
+        first_string = input("Your first string: ")
+        third_string = input("Your third string: ")
+        length_0 = len(first_string)
+        length_2 = len(third_string)
 
     elif length_0 == 0:
         first_string = input("Your first string is empty.\nPlease enter a string: ")
