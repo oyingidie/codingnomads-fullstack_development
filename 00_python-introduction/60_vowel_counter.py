@@ -22,6 +22,8 @@ player_name = input("What is your name, please? ")
 
 while " " in player_name:
     player_name = player_name.split(" ")[0]
+    if not player_name:
+        player_name = player_name.split(" ")[1]
 
 if player_name:
     player = player_name
