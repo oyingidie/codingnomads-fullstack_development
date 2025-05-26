@@ -10,4 +10,6 @@ month_number = int(input("Enter a number for any month: "))
 if 1 <= month_number <= 12:
     if month_number == 1:
         print(f"January is the {month_number}st month of the year.")
+    elif month_number == 2:
+        print(f"February is the {month_number}nd month of the year.")
     
