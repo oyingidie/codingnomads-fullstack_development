@@ -6,10 +6,17 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 number = int(input("Enter a number between 0 and 1,000,000,000: "))
-search_list = range(1000000001)
+search_range = range(1000000001)
 found = False
 
-if 0 > number or number > 1000000000:
+while not found:
+    if number not in search_range:
+        print("Out of range!")
+        number = int(input())
+        continue
+    else:
+
+if number not in search_list:
     print("Out of range!")
 else:
     for item in search_list:
