@@ -12,8 +12,8 @@ found = False
 while not found:
     if number not in search_range:
         print("Out of range!")
-        number = int(input())
+        number = int(input("Please enter a number between 0 and 1,000,000,000: "))
         continue
     else:
-        print(f"Found the number: {number}")
+        print(f"\nFound the number: {number}")
         found = True
