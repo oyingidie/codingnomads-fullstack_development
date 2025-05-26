@@ -15,12 +15,5 @@ while not found:
         number = int(input())
         continue
     else:
-
-if number not in search_list:
-    print("Out of range!")
-else:
-    for item in search_list:
-        if item == number:
-            found = True
-            print(f"Number found: {item}")
-            break
+        print(f"Found the number: {number}")
+        found = True
