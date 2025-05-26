@@ -25,7 +25,9 @@ if 1 <= month_number <= 12:
     elif month_number == 8:
         print(f"August is the {month_number}th month of the year.")
     elif month_number == 9:
-        print()
-    elif month_number == 10
-    elif month_number == 11
+        print(f"September is the {month_number}th month of the year.")
+    elif month_number == 10:
+        print(f"October is the {month_number}th month of the year.")
+    elif month_number == 11:
+        print(f"November is the {month_number}th month of the year.")
     elif month_number == 12
