@@ -13,3 +13,7 @@ if 0 > number or number > 1000000000:
     print("Out of range!")
 else:
     for item in search_list:
+        if item == number:
+            found = True
+            print(f"Number found: {item}")
+            break
