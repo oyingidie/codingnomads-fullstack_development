@@ -21,9 +21,7 @@ print(f"Hello! My name is {control}. I'm on the lookout for vowels in your data.
 player_name = input("What is your name, please? ")
 
 while " " in player_name:
-    player_name = player_name.split(" ")[0]
-    if player_name:
-        player_name = player_name.lstrip().split(" ")[0]
+    player_name = player_name.strip().split(" ")[0]
 
 if player_name:
     player = player_name
