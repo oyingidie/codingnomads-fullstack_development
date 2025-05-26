@@ -32,4 +32,6 @@ if 1 <= month_number <= 12:
         print(f"November is the {month_number}th month of the year.")
     elif month_number == 12:
         print(f"December is the {month_number}th month of the year.")
+else:
+    print(f"Error: The Gregorian calendar does not have a {month_number}-month year.")
 
