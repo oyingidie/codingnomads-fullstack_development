@@ -12,4 +12,6 @@ if 1 <= month_number <= 12:
         print(f"January is the {month_number}st month of the year.")
     elif month_number == 2:
         print(f"February is the {month_number}nd month of the year.")
+    elif month_number == 3:
+        print(f"March is the {month_number}rd month of the year.")
     
