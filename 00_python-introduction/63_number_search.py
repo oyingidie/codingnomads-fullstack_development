@@ -2,9 +2,11 @@
 # 1. Use a `while` loop to find the number.
 # 
 # SCENARIO: When the number is found, exit the loop and 
-#print the number to the console.
+# print the number to the console.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 number = int(input("Enter a number between 0 and 1,000,000,000: "))
+found = False
+search_list = range(1000000001)
 
-while True:
+if 
