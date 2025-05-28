@@ -12,3 +12,4 @@ for char in prompt:
     else:
         sarcastic_response += char.upper()
 
+print(f"Wow! your opinion is so unique. It really stands out:\n{sarcastic_response}")
