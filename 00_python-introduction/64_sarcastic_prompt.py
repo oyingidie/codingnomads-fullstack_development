@@ -8,8 +8,15 @@ user_opinion = input("Please share your honest opinion: ")
 sarcastic_response = ""
 ironic = True
 
-
-
+for char in user_opinion:
+    if char.isalpha():
+        if ironic:
+            sarcastic_response += char.lower()
+        else:
+            sarcastic_response += char.upper()
+        ironic = not ironic
+    else:
+        sarcastic_response += char
 
 
 for char in prompt:
