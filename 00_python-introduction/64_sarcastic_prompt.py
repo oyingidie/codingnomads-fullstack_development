@@ -2,6 +2,12 @@
 #    then prints the same sentence back to them in aLtErNaTiNg CaPs.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+print("I'm all ears, today... And alright as well.")
+
+user_opinion = input("Please share your honest opinion: ")
+sarcastic_response = ""
+ironic = True
+
 prompt = input("Please share your honest opinion: ")
 sarcastic_response = ""
 
