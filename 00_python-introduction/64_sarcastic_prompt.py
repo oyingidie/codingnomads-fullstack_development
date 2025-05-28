@@ -8,8 +8,9 @@ user_opinion = input("Please share your honest opinion: ")
 sarcastic_response = ""
 ironic = True
 
-prompt = input("Please share your honest opinion: ")
-sarcastic_response = ""
+
+
+
 
 for char in prompt:
     char_index = prompt.index(char)
