@@ -14,3 +14,5 @@ character_2 = "."
 
 special_word = (word_2[:2] + character_1) * 3
 message = word_0 + character_0 + word_1 + character_0 + special_word + word_2[-4:] + character_2
+
+print(f"{message.capitalize()}")
