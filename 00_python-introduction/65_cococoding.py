@@ -9,3 +9,8 @@ word_0 = "Time"
 word_1 = "for"
 word_2 = "co"
 word_3 = "coding"
+
+character_0 = " "
+character_1 = "-"
+character_2 = "."
+
