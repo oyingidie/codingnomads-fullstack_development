@@ -4,8 +4,8 @@
 # so that the output doesn't show any superfluous spacing.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-riddle = input("Riddle me this...\n\"I have whiskers and paws, I catch with my claws, \
-")
+riddle = input("Riddle me this...\nI have whiskers and paws,\nI catch with my claws,\
+\nI roam the night,\nI purr with delight,\n")
 
 animal = riddle.lower()
 blurb = f"The {animal} (Felis {animal}us) is a domestic species of small \
