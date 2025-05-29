@@ -4,3 +4,8 @@
 #
 # SCENARIO: Use an operator and f-string formatting to create this output
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+word_0 = "Time"
+word_1 = "for"
+word_2 = "co"
+word_3 = "coding"
