@@ -1,4 +1,4 @@
-# Fix the wikipedia blurb below by replacing the value for `animal`
+# SCENARIO: Fix the wikipedia blurb below by replacing the value for `animal`
 # with the name of the animal that the text is talking about.
 # Then, change the that way you're displaying the multi-line string
 # so that the output doesn't show any superfluous spacing.
