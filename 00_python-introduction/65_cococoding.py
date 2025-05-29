@@ -7,10 +7,10 @@
 
 word_0 = "Time"
 word_1 = "for"
-word_3 = "coding"
+word_2 = "coding"
 
 character_0 = " "
 character_1 = "-"
 character_2 = "."
 
-message = word_0 + character_0 + word_1
+message = word_0 + character_0 + word_1 
