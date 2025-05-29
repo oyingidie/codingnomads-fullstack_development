@@ -4,7 +4,10 @@
 # so that the output doesn't show any superfluous spacing.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-animal = None
+riddle = input("Riddle me this...\n\"I have whiskers and paws, I catch with my claws, \
+")
+
+animal = riddle.lower()
 blurb = f"The {animal} (Felis {animal}us) is a domestic species of small \
         carnivorous mammal. It is the only domesti{animal}ed species \
         in the family Felidae and is often referred to as the \
