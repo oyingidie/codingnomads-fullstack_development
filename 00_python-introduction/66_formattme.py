@@ -21,5 +21,9 @@ if animal == "cat":
     carnivorous mammal. It is the only domesti{animal}ed species \
     in the family Felidae and is often referred to as the \
     domestic {animal} to distinguish it from the wild members of the family."
+else:
+    print("\nHmmm... Not quite right.")
+    blurb = "It seems you are not familiar with the animal world. \
+    I recommend you binge on Discovery Channel's Animal Planet ."
 
 print(blurb)
