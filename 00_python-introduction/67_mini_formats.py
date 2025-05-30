@@ -11,3 +11,9 @@
 rows = range(5)
 columns = range(10)
 
+for row in rows:
+    build_table = ""
+    for column in columns:
+        number = row * 10 + column
+        build_table += f"{number:2d} "
+    
