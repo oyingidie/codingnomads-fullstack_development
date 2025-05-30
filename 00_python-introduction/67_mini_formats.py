@@ -16,4 +16,5 @@ for row in rows:
     for column in columns:
         number = row * 10 + column
         build_table += f"{number:2d} "
+    print(build_table)
     
