@@ -18,12 +18,13 @@ animal = riddle.lower()
 if animal == "cat":
     print("\nCorrect! You are a genius!")
     blurb = f"The {animal} (Felis {animal}us) is a domestic species of small \
-    carnivorous mammal. It is the only domesti{animal}ed species \
-    in the family Felidae and is often referred to as the \
-    domestic {animal} to distinguish it from the wild members of the family."
+carnivorous mammal. It is the only domesti{animal}ed species \
+in the family Felidae and is often referred to as the \
+domestic {animal} to distinguish it from the wild members of the family. \
+The {animal} is often valued by humans for companionship and its ability to hunt vermin."
 else:
     print("\nHmmm... Not quite right.")
     blurb = "It seems you are not familiar with the animal world. \
-    I recommend you binge on Discovery Channel's Animal Planet ."
+I recommend you binge on Discovery Channel's Animal Planet ."
 
 print(blurb)
