@@ -4,6 +4,14 @@
 # so that the output doesn't show any superfluous spacing.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+print("This is the ultimate One-Word Exercise!")
+
+start = input("Type 'start' to begin: ")
+
+while start.lower() != "start":
+    print("You have not entered the correct keyword. Please try again.")
+    start = input("Type 'start' to begin: ")
+
 riddle = input("Riddle me this...\n\"I have whiskers and paws,\nI catch with my claws,\
 \nI roam the night,\nAnd I purr with delight.\nWhat am I?\"\n")
 
