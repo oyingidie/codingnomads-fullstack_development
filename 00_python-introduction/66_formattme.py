@@ -12,13 +12,14 @@ while start.lower() != "start":
     start = input("Type *'start'* to begin: ")
 
 riddle = input("\nRiddle me this...\n\"I have whiskers and paws,\nI catch with my claws,\
-\nI roam the night,\nAnd I purr with delight.\nWhat am I?\"\n")
+\nI roam the night,\nAnd I purr with delight.\nWhat am I?\"")
 animal = riddle.lower()
 
-
-blurb = f"The {animal} (Felis {animal}us) is a domestic species of small \
-        carnivorous mammal. It is the only domesti{animal}ed species \
-        in the family Felidae and is often referred to as the \
-        domestic {animal} to distinguish it from the wild members of the family."
+if animal == "cat":
+    print("\nCorrect! You are a genius!")
+    blurb = f"The {animal} (Felis {animal}us) is a domestic species of small \
+    carnivorous mammal. It is the only domesti{animal}ed species \
+    in the family Felidae and is often referred to as the \
+    domestic {animal} to distinguish it from the wild members of the family."
 
 print(blurb)
