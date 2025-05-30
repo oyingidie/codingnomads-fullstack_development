@@ -5,17 +5,17 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 print("This is the ultimate One-Word Exercise!")
-
-start = input("Type 'start' to begin: ")
+start = input("Type *'start'* to begin: ")
 
 while start.lower() != "start":
     print("You have not entered the correct keyword. Please try again.")
-    start = input("Type 'start' to begin: ")
+    start = input("Type *'start'* to begin: ")
 
-riddle = input("Riddle me this...\n\"I have whiskers and paws,\nI catch with my claws,\
+riddle = input("\nRiddle me this...\n\"I have whiskers and paws,\nI catch with my claws,\
 \nI roam the night,\nAnd I purr with delight.\nWhat am I?\"\n")
-
 animal = riddle.lower()
+
+
 blurb = f"The {animal} (Felis {animal}us) is a domestic species of small \
         carnivorous mammal. It is the only domesti{animal}ed species \
         in the family Felidae and is often referred to as the \
