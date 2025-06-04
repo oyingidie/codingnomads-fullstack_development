@@ -13,7 +13,7 @@ while True:
     user_input = input("Can I see something interesting, please? ")
 
     if user_input.lower() == "quit":
-        print("[User bored. System will terminate in 3, 2, 1...]")
+        print("[User bored. System terminates in 3, 2, 1...]")
         time.sleep(3)
         sys.exit()
     else:
