@@ -8,6 +8,7 @@ import pathlib
 directory = pathlib.Path.cwd()
 
 for file in directory.rglob('*.py'):
-    relative_path = file.relative_to(directory)
-    
-
+    relative_path_parts = file.relative_to(directory).parts
+    indentation_level = len(relative_path_parts) - 1
+    indent = '  ' * indentation_level
+    print(f"{indent}{file.name}")
