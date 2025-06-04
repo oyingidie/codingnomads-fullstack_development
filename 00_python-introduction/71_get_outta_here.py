@@ -19,4 +19,4 @@ while True:
     else:
         print("Urrghh... ")
         time.sleep(2)
-        print("Not close enough. ")
+        print("Not close enough. \U0001F615")
