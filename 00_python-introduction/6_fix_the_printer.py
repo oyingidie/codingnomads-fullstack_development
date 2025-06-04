@@ -3,6 +3,8 @@
 #
 # 0. How can you fix the code below to successfully print "xerox"
 # to your console?
+#
+# code >>>  print(xerox)
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 print("xerox")
