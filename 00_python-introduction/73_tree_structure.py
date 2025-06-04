@@ -3,3 +3,11 @@
 # 1. Run it in your labs folder and add formatting for nicer viewing.
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+import pathlib
+
+directory = pathlib.Path.cwd()
+
+for file in directory.rglob('*.py'):
+    relative_path = file.relative_to(directory)
+    
+
