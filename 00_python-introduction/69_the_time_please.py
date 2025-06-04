@@ -5,3 +5,6 @@
 import datetime
 
 current_date_time = datetime.datetime.now()
+formatted_date = current_date_time.strftime("%A, %d %B %Y")
+formatted_time = current_date_time.strftime("%H:%M:%S")
+
