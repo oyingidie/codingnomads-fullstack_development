@@ -6,19 +6,24 @@
 import random
 
 number = random.randint(1, 100)
-attempts = 5
-print("It's the Guess-My-Number game. Let's play!")
+attempt = 5
+print("It's the Guess-My-Number game. Let's play! \U0001F3B2")
 
-while attempts > 0:
-    print(f"\nAttempts left: {attempts}")
+while attempt > 0:
+    print(f"\nAttempt(s) left: {attempt}")
     guess = int(input("Guess a number between 1 and 100: "))
 
     if guess == number:
         print("\nCongrats! \U0001F389\nYour guess is correct! \U0001F973")
         break
     elif guess < number:
-        print("\nYour guess is too low...")
-        attempts -= 1
+        if attempt > 1:
+            print("\nYour guess is too low... Try again.")
+        attempt -= 1
     elif guess > number:
-        print("\nYour guess is too high...")
+        if attempt > 1:
+            print("\nYour guess is too high... Try again.")
         attempts -= 1
+
+if attempts == 0:
+    print(f"\n")
