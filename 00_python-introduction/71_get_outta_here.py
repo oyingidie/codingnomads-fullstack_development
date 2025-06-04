@@ -18,5 +18,6 @@ while True:
         sys.exit()
     else:
         print("Urrghh... ")
-        time.sleep(2)
+        time.sleep(1.5)
         print("Not close enough. \U0001F615")
+        time.sleep(1.5)
