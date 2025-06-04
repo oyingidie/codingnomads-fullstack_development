@@ -7,13 +7,16 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 import sys
+import time
 
 while True:
-    user_input = input("I'd love to see something interesting: ")
+    user_input = input("Can I see something interesting, please? ")
 
     if user_input.lower() == "quit":
         print("[User bored. System will terminate in 3, 2, 1...]")
+        time.sleep(3)
         sys.exit()
     else:
-        print("Urrghh... Not close enough.")
-        
+        print("Urrghh... ")
+        time.sleep(2)
+        print("Not close enough. ")
