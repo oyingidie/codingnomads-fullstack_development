@@ -23,7 +23,15 @@ while attempt > 0:
     elif guess > number:
         if attempt > 1:
             print("\nYour guess is too high... Try again.")
-        attempts -= 1
+        attempt -= 1
 
-if attempts == 0:
-    print(f"\n")
+if attempt == 0:
+    print("\N{mathematical bold capital g}" + ' '\
+    + "\N{mathematical bold capital a}" + ' '\
+    + "\N{mathematical bold capital m}" + ' '\
+    + "\N{mathematical bold capital e}" + " - "\
+    + "\N{mathematical bold capital o}" + ' '\
+    + "\N{mathematical bold capital v}" + ' '\
+    + "\N{mathematical bold capital e}" + ' '\
+    + "\N{mathematical bold capital r}" + ' '\
+    + "\U0001F3B3")
