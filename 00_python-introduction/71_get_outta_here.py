@@ -10,3 +10,6 @@ import sys
 
 while True:
     user_input = input("Type something: ")
+    if user_input.lower() == "quit":
+        print("Exiting the program...")
+        sys.exit()
