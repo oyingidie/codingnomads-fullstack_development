@@ -14,15 +14,15 @@ while attempt > 0:
     guess = int(input("Guess a number between 1 and 100: "))
 
     if guess == number:
-        print("\nCongrats! \U0001F389\nYour guess is correct! \U0001F973")
+        print("Congrats! \U0001F389\nYour guess is correct! \U0001F973")
         break
     elif guess < number:
         if attempt > 1:
-            print("\nYour guess is too low... Try again.")
+            print("Your guess is too low... Try again.")
         attempt -= 1
     elif guess > number:
         if attempt > 1:
-            print("\nYour guess is too high... Try again.")
+            print("Your guess is too high... Try again.")
         attempt -= 1
 
 if attempt == 0:
